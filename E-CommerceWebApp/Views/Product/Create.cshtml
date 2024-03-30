@@ -1,0 +1,92 @@
+﻿@model ModelClasses.ViewModel.ProductViewModel
+
+<div class="PaddingAll">
+    <h2 class="text-info">Create a new Product</h2>
+    <hr class="font-weight-bold"/>
+    <div class="PaddingAllWhite">
+        <div class="row">
+            <div class="col-10">
+                <form asp-action="Create" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="row form-group pb-2">
+                        <div class="col-3">
+                            <label asp-for="Products!.ProductName">Product Name</label>
+                        </div>
+                        <div class="col-9">
+                            <input asp-for="Products!.ProductName" class="form-control" />
+                            <span asp-validation-for="Products!.ProductName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row form-group pb-2">
+                        <div class="col-3">
+                            <label asp-for="Products!.Price"></label>
+                        </div>
+                        <div class="col-9">
+                            <input asp-for="Products!.Price" class="form-control" />
+                            <span asp-validation-for="Products!.Price" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row pb-2">
+                        <div class="col-3 form-group">
+                            <label>Category</label>
+                        </div>
+                        <div class="col-9 form-group">
+                            @Html.DropDownListFor(x => x.Products!.CategoryId, Model.CategoriesList, 
+                                "Select a Category", new {@class = "form-control"})
+                            <span asp-validation-for="Products!.CategoryId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row pb-2">
+                        <div class="col-3 form-group">
+                            <label asp-for="Products!.Description"></label>
+                        </div>
+                        <div class="col-9 form-group">
+                            <textarea asp-for="Products!.Description" class="form-control" placeholder="Max Is 2000"></textarea>
+                            <span asp-validation-for="Products!.Description" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row form-group pb-2">
+                        <div class="col-3">
+                            <label asp-for="Images"></label>
+                        </div>
+                        <div class="col-9">
+                            <input type="file" asp-for="Images" multiple class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row form-group pb-2">
+                        <div class="col-3">
+                            <label asp-for="Inventories!.PurchasePrice"></label>
+                        </div>
+                        <div class="col-9">
+                            <input asp-for="Inventories!.PurchasePrice" class="form-control" />
+                            <span asp-validation-for="Inventories!.PurchasePrice" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-3">
+                            <label asp-for="Inventories!.Quantity"></label>
+                        </div>
+                        <div class="col-9">
+                            <input asp-for="Inventories!.Quantity" class="form-control" />
+                            <span asp-validation-for="Inventories!.Quantity" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row form-group">
+                        <div class="col-4 offset-1">
+                            <a asp-action="Index" class="btn btn-primary form-control">Back To List</a>
+                        </div>
+                        <div class="col-4 offset-1">
+                            <button type="submit" class="btn btn-success form-control">Create</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

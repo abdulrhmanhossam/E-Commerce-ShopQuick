@@ -1,0 +1,17 @@
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\bin\Debug\net8.0\DataBaseAccess.deps.json
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\bin\Debug\net8.0\DataBaseAccess.runtimeconfig.json
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\bin\Debug\net8.0\DataBaseAccess.dll
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\bin\Debug\net8.0\DataBaseAccess.pdb
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\bin\Debug\net8.0\ModelClasses.dll
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\bin\Debug\net8.0\ModelClasses.pdb
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.csproj.AssemblyReference.cache
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.AssemblyInfoInputs.cache
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.AssemblyInfo.cs
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.csproj.CoreCompileInputs.cache
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBase.3AAAA425.Up2Date
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.dll
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\refint\DataBaseAccess.dll
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.pdb
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.genruntimeconfig.cache
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\ref\DataBaseAccess.dll
