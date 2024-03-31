@@ -1,9 +1,39 @@
 $(document).ready(function () {
+    var status = window.location.search.substring(8)
+    switch (status) {
+        case "Pending":
+            Pending = "active text-white bg-secondary";
+            getDataTable(status)
+            break;
+        case "Inprocess":
+            Inprocess = "active text-white bg-secondary";
+            getDataTable(status)
+            break;
+        case "Completed":
+            Completed = "active text-white bg-secondary";
+            getDataTable(status)
+            break;
+        case "Canceled":
+            Canceled = "active text-white bg-secondary";
+            getDataTable(status)
+            break;
+        case "Shippd":
+            Shippd = "active text-white bg-secondary";
+            getDataTable(status)
+            break;
+        default:
+            All = "active text-white bg-secondary";
+            getDataTable(status)
+            break;
+    }
+});
+
+function getDataTable(status) {
     var adminUser = $("#ifAdmin").val();
     dataTable = $("#myOrderTable").DataTable({
         colReorder: true,
         "ajax": {
-            "url": "/Order/OrderListAll?status"
+            "url": "/Order/OrderListAll?status=" + status
         },
         "columns": [
             {
@@ -49,10 +79,10 @@ $(document).ready(function () {
                 }, "width": "15%"
             }
         ],
-        
+
         dom: 'Bfrtip',
         buttons: [
             'pageLength', 'copy', 'csv', 'excel', 'pdf', 'print'
         ],
     });
-});
+}

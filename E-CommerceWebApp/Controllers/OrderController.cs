@@ -245,14 +245,14 @@ namespace E_CommerceWebApp.Controllers
             }
             return Json(new {data = orderList });
         }
-        public IActionResult OrderDetails(int orderId)
+        public IActionResult OrderDetails(int id)
         {
             OrderDetailsViewModel = new OrderDetailsViewModel();
             OrderDetailsViewModel.OrderHeader = _dbContext.OrderHeaders
-                .FirstOrDefault(x => x.Id == orderId);
+                .FirstOrDefault(x => x.Id == id);
             OrderDetailsViewModel.UserProductList = _dbContext.OrderDetails
                 .Include(x => x.Product)
-                .Where(x => x.OrderHeaderId == orderId).ToList();
+                .Where(x => x.OrderHeaderId == id).ToList();
             return View(OrderDetailsViewModel);
         }
 
@@ -267,7 +267,7 @@ namespace E_CommerceWebApp.Controllers
                 _dbContext.OrderHeaders.Update(orderToUpdate);
                 _dbContext.SaveChanges();
             }
-            return RedirectToAction("OrderDetails" , new {orderId = OrderDetailsViewModel.OrderHeader!.Id});
+            return RedirectToAction("OrderDetails" , new {id = OrderDetailsViewModel.OrderHeader!.Id});
         }
 
         // update order to Shipped
@@ -284,7 +284,7 @@ namespace E_CommerceWebApp.Controllers
                 _dbContext.OrderHeaders.Update(orderToUpdate);
                 _dbContext.SaveChanges();
             }
-            return RedirectToAction("OrderDetails", new { orderId = OrderDetailsViewModel.OrderHeader!.Id });
+            return RedirectToAction("OrderDetails", new { id = OrderDetailsViewModel.OrderHeader!.Id });
         }
 
         // update order to Delevered
@@ -298,7 +298,7 @@ namespace E_CommerceWebApp.Controllers
                 _dbContext.OrderHeaders.Update(orderToUpdate);
                 _dbContext.SaveChanges();
             }
-            return RedirectToAction("OrderDetails", new { orderId = OrderDetailsViewModel.OrderHeader!.Id });
+            return RedirectToAction("OrderDetails", new { id = OrderDetailsViewModel.OrderHeader!.Id });
         }
 
         // update order to Canceled

@@ -1,4 +1,72 @@
-﻿
+﻿@{
+    var Status = Context.Request.Query["status"];
+    var Pending = "text-primary";
+    var Inprocess = "text-primary";
+    var Shippd = "text-primary";
+    var Completed = "text-primary";
+    var Canceled = "text-primary";
+    var All = "text-primary";
+
+    switch (Status)
+    {
+        case "Pending":
+            Pending = "active text-white bg-secondary";
+            break;
+        case "Inprocess":
+            Inprocess = "active text-white bg-secondary";
+            break;
+        case "Completed":
+            Completed = "active text-white bg-secondary";
+            break;
+        case "Canceled":
+            Canceled = "active text-white bg-secondary";
+            break;
+        case "Shippd":
+            Shippd = "active text-white bg-secondary";
+            break;
+        default:
+            All = "active text-white bg-secondary";
+            break;
+    }
+}
+
+<div class="row m-3">
+    <div class="col-7">
+        <h2 class="text-primary">Order List</h2>
+        <hr />
+    </div>
+    <div class="col-5">
+        <a asp-action="Index" asp-controller="Home" class="btn btn-primary form-control">Purchase More</a>
+    </div>
+</div>
+
+<div class="card shadow m-1">
+    <div class="card-header bg-light">
+        <div class="d-flex justify-content-end pb-3 pt-2">
+            <ul class="list-group list-group-horizontal-sm">
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="OrderHistory" asp-route-status="Pending">
+                <li class="list-group-item @Pending">Pending Orders</li>
+                </a>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="OrderHistory" asp-route-status="Inprocess">
+                <li class="list-group-item @Inprocess">In Process</li>
+                </a>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="OrderHistory" asp-route-status="Shippd">
+                <li class="list-group-item @Shippd">Shippd</li>
+                </a>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="OrderHistory" asp-route-status="Completed">
+                <li class="list-group-item @Completed">Completed</li>
+                </a>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="OrderHistory" asp-route-status="Canceled">
+                <li class="list-group-item @Canceled">Canceled</li>
+                </a>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="OrderHistory" asp-route-status="All">
+                <li class="list-group-item @All">All</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+
 @if (User.IsInRole("Admin") || User.IsInRole("Sales"))
 {
     <input id="ifAdmin" value="1" hidden />
