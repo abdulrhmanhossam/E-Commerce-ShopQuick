@@ -20,7 +20,7 @@ namespace E_CommerceWebApp.Controllers
         {
             return View();
         }
-        // go to view and throw model to view 
+        // go to view and throw model to view
         [HttpGet]
         public IActionResult Login(string returnUrl = null)
         {

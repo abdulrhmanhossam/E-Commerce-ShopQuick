@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\wwwroot\\js\\orderhistory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\wwwroot\\js\\orderhistory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\views\\order\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\views\\order\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\wwwroot\\js\\orderhistory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\wwwroot\\js\\orderhistory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "E-CommerceWebApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "E-CommerceWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABoAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-30T13:17:51.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OrderHistory.cshtml",
               "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\OrderHistory.cshtml",
               "RelativeDocumentMoniker": "E-CommerceWebApp\\Views\\Order\\OrderHistory.cshtml",
               "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\OrderHistory.cshtml",
               "RelativeToolTip": "E-CommerceWebApp\\Views\\Order\\OrderHistory.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBAAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwBAAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-30T12:49:54.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrderHistory.js",
               "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
               "RelativeDocumentMoniker": "E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
               "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
               "RelativeToolTip": "E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwDQAAABMAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwC8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-03-30T12:38:10.829Z",
               "EditorCaption": ""

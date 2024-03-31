@@ -8,10 +8,10 @@ $(document).ready(function () {
         "columns": [
             {
                 "data": "dateOfOrder", "render":
-                    function (data) { return moment(data).format('MM/DD/YYYY'); }, "width": "30%"
+                    function (data) { return moment(data).format('MM/DD/YYYY'); }, "width": "35%"
             },
-            { "data": "name", "width": "16%" },
-            { "data": "totalOrderAmount", "width": "16%", class: "text-start" },
+            { "data": "name", "width": "15%" },
+            { "data": "totalOrderAmount", "width": "15%", class: "text-start" },
             {
                 "data": "orderStatus", "render": function (data) {
                     if (data === "Canceled") {
@@ -19,12 +19,12 @@ $(document).ready(function () {
                     } else {
                         return '<p class="text-success">' + data + '</p>'
                     }
-                }, "width": "16%"
+                }, "width": "15%"
             },
-            { 
+            {
                 "data": "id",
                 "render": function (data) {
-                    if(adminUser === "1") {
+                    if (adminUser === "1") {
                         return `
                             <div class="row">
                                 <div class="col-12">
@@ -34,7 +34,8 @@ $(document).ready(function () {
                                 </div>
                             </div>
                         `;
-                    } else{
+
+                    } else {
                         return `
                         <div class="row">
                             <div class="col-12">
@@ -48,9 +49,10 @@ $(document).ready(function () {
                 }, "width": "15%"
             }
         ],
+        
         dom: 'Bfrtip',
         buttons: [
-            'pageLength', 'copy', 'csv', 'excel', 'pdf', 'print', 'selectAll'
+            'pageLength', 'copy', 'csv', 'excel', 'pdf', 'print'
         ],
     });
-})
+});

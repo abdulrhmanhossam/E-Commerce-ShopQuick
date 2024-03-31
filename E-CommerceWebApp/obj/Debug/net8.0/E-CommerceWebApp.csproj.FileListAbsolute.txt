@@ -457,3 +457,4 @@ E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\Micro
 E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\Stripe.net.dll
+E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\obj\Debug\net8.0\E-CommerceWebApp.sourcelink.json
