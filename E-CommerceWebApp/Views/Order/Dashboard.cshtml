@@ -1,0 +1,49 @@
+﻿<h3 class="text-info">Order Status</h3>
+<hr />
+<div class="row d-flex justify-content-between">
+    <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-info rounded">
+        <div class="card bg-success" style="width:20rem;">
+            <div class="card-body text-center text-white">
+                <h4 class="card-title">There are total</h4>
+                <h1 class="card-text text-center">@ViewBag.Pending</h1>
+                <h4>New Order</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-info rounded">
+        <div class="card " style="width:20rem; background-color:darkgoldenrod">
+            <div class="card-body text-center text-white">
+                <h4 class="card-title">There are total</h4>
+                <h1 class="card-text text-center">@ViewBag.InProcess</h1>
+                <h4>Orders Inprocess</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-danger rounded">
+        <div class="card bg-warning" style="width:20rem;">
+            <div class="card-body text-center text-white">
+                <h4 class="card-title">There are total</h4>
+                <h1 class="card-text text-center">@ViewBag.Shipped</h1>
+                <h4>Orders Shipped</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-success rounded">
+        <div class="card" style="width:20rem; background-color:deeppink;">
+            <div class="card-body text-center text-white">
+                <h4 class="card-title">There are total</h4>
+                <h1 class="card-text text-center">@ViewBag.Completed</h1>
+                <h4>Orders Completed</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-primary rounded">
+        <div class="card bg-info" style="width:20rem;">
+            <div class="card-body text-center text-white">
+                <h4 class="card-title">There are total</h4>
+                <h1 class="card-text text-center">@ViewBag.Canceled</h1>
+                <h4>Orders Canceled</h4>
+            </div>
+        </div>
+    </div>
+</div>

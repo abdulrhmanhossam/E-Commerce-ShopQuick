@@ -9,16 +9,16 @@ $(document).ready(function () {
             Inprocess = "active text-white bg-secondary";
             getDataTable(status)
             break;
+        case "Shippd":
+            Shippd = "active text-white bg-secondary";
+            getDataTable(status)
+            break;
         case "Completed":
             Completed = "active text-white bg-secondary";
             getDataTable(status)
             break;
         case "Canceled":
             Canceled = "active text-white bg-secondary";
-            getDataTable(status)
-            break;
-        case "Shippd":
-            Shippd = "active text-white bg-secondary";
             getDataTable(status)
             break;
         default:

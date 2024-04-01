@@ -1,5 +1,6 @@
 ﻿using DataBaseAccess;
 using E_CommerceWebApp.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -58,6 +59,7 @@ namespace E_CommerceWebApp.Controllers
             return View();
         }
 
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Summery(SummeryViewModel summeryFromViewModel)
         {
@@ -327,6 +329,27 @@ namespace E_CommerceWebApp.Controllers
             return Json(new { success = false, message = "Refund Faild" });
 
             //return RedirectToAction("OrderDetails", new { orderId = orderId });
+        }
+
+        [Authorize]
+        public IActionResult Dashboard()
+        {
+            var orderStatusInfo = _dbContext.OrderHeaders
+                .Where(x => x.DateOfOrder >= DateTime.Now.AddDays(-60) && x.DateOfOrder <= DateTime.Now)
+                .ToList();
+
+            ViewBag.Shipped = orderStatusInfo
+                .Where(x => x.OrderStatus ==  Utility.UpdateOrderStatus.OrderStatusShipped).Count();
+            ViewBag.InProcess = orderStatusInfo
+                .Where(x => x.OrderStatus == Utility.UpdateOrderStatus.OrderStatusInProcess).Count();
+            ViewBag.Canceled = orderStatusInfo
+                .Where(x => x.OrderStatus == Utility.UpdateOrderStatus.OrderStatusCanceled).Count();
+            ViewBag.Completed = orderStatusInfo
+                .Where(x => x.OrderStatus == Utility.UpdateOrderStatus.OrderStatusCompleted).Count();
+            ViewBag.Pending = orderStatusInfo
+                .Where(x => x.OrderStatus == Utility.UpdateOrderStatus.OrderStatusPending).Count();
+
+            return View();
         }
     }
 }
