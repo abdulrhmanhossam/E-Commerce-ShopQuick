@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "11DKlAiv6fenk4hPlPiVfL3dRvL6D7Axj96nN/uRZ8o=",
+  "Hash": "Ux8t2V0p4dKQIusVd91QG5u69mz5Kn4UkGH346rfEIw=",
   "Source": "E-CommerceWebApp",
   "BasePath": "_content/E-CommerceWebApp",
   "Mode": "Default",
@@ -1497,6 +1497,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\workstation-2.jpg"
+    },
+    {
+      "Identity": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
+      "SourceId": "E-CommerceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceWebApp",
+      "RelativePath": "js/dashboard.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dashboard.js"
     },
     {
       "Identity": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",

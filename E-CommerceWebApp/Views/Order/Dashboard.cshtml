@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-info rounded">
+@*     <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-info rounded">
         <div class="card " style="width:20rem; background-color:darkgoldenrod">
             <div class="card-body text-center text-white">
                 <h4 class="card-title">There are total</h4>
@@ -18,7 +18,7 @@
                 <h4>Orders Inprocess</h4>
             </div>
         </div>
-    </div>
+    </div> *@
     <div class="col-lg-auto col-md-auto col-sm-auto p-1 shadow bg-danger rounded">
         <div class="card bg-warning" style="width:20rem;">
             <div class="card-body text-center text-white">
@@ -42,8 +42,50 @@
             <div class="card-body text-center text-white">
                 <h4 class="card-title">There are total</h4>
                 <h1 class="card-text text-center">@ViewBag.Canceled</h1>
-                <h4>Orders Canceled</h4>
+                <h4>Orders Refunded</h4>
             </div>
         </div>
     </div>
 </div>
+
+
+<hr />
+<div class="row d-flex justify-content-around">
+    <div class="col border-1 border-top-0 border-bottom-0 border-start-0" style="border:solid red">
+        <div class="row">
+            <p class="text-black"><strong>Weekly Sales Report</strong></p>
+            <hr />
+        </div>
+        <div class="row p-2">
+            <div class="col bg-light shadow">
+                <canvas id="myChart" style="max-width:700px; max-height:400px;"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col border-1 border-top-0 border-bottom-0 border-start-0" style="border:solid red">
+        <div class="row">
+            <p class="text-black"><strong>Most Popular Items</strong></p>
+            <hr />
+        </div>
+        <div class="row p-2">
+            <div class="col bg-light shadow">
+                <canvas id="myChart1" style="max-width:700px; max-height:430px;"></canvas>
+            </div>
+        </div>
+    </div>
+@*     <div class="col">
+        <div class="row">
+            <p class="text-black"><strong>Top Buyers List</strong></p>
+            <hr />
+        </div>
+        <div class="row p-2">
+            <div class="col bg-light shadow">
+                <canvas id="myChart2" style="max-width:500px; max-height:400px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+@section Scripts {
+    <script src="~/js/dashboard.js"></script>
+}

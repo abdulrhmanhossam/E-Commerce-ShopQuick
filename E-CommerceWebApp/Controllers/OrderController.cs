@@ -331,6 +331,7 @@ namespace E_CommerceWebApp.Controllers
             //return RedirectToAction("OrderDetails", new { orderId = orderId });
         }
 
+        // to open Dashborad View And Display Count
         [Authorize]
         public IActionResult Dashboard()
         {
@@ -351,5 +352,77 @@ namespace E_CommerceWebApp.Controllers
 
             return View();
         }
+
+        // get Sales Data To View in Dashboard
+        public List<object> getSalesData()
+        {
+            List<object> chartData = new List<object>();
+            var salesReport = _dbContext.OrderHeaders
+                .Where(x => x.DateOfOrder >= DateTime.Now.AddDays(-30) && x.DateOfOrder <= DateTime.Now)
+                .ToList();
+
+            var newSalesReport = salesReport
+                .GroupBy(x => x.DateOfOrder.DayOfWeek.ToString())
+                .Select(x => new
+                {
+                    x.Key,
+                    total = x.Sum(i => i.TotalOrderAmount)
+                }).ToList();
+
+            chartData.Add(newSalesReport.Select(x => x.Key).ToList());
+            chartData.Add(newSalesReport.Select(x => x.total).ToList());
+
+            return chartData;
+        }
+
+        public List<object> getPopularProductList()
+        {
+            List<object> chartData = new List<object>();
+
+            var productTop = _dbContext.OrderDetails
+                .Include(x => x.Product)
+                .Select(x => new
+                {
+                    ProductName = x.Product.ProductName,
+                    qty = x.Count
+                });
+
+            var mostPopularItems = productTop
+                .GroupBy(x => x.ProductName)
+                .Select(x => new
+                {
+                    x.Key,
+                    totalQuantity = x.Sum(i => i.qty)
+                })
+                .OrderByDescending(x => x.totalQuantity)
+                .Take(5).ToList();
+
+            chartData.Add(mostPopularItems.Select(x => x.Key).ToList());
+            chartData.Add(mostPopularItems.Select(x => x.totalQuantity).ToList());
+
+            return chartData;
+        }
+
+        //public List<object> getTopBuyerList()
+        //{
+        //    List<object> chartData = new List<object>();
+
+        //    var topBuyer = _dbContext.OrderHeaders
+        //        .Include(x => x.ApplicationUser)
+        //        .Where(x => x.UserId == x.ApplicationUser.Id)
+        //        .GroupBy(x => x.ApplicationUser.LastName)
+        //        .Select(x => new
+        //        {
+        //            x.Key,
+        //            totalsAmount = x.Sum(s => s.TotalOrderAmount)
+        //        })
+        //        .OrderByDescending(x => x.totalsAmount)
+        //        .Take(5).ToList();
+
+        //    chartData.Add(topBuyer.Select(x => x.Key).ToList());
+        //    chartData.Add(topBuyer.Select(x => x.totalsAmount).ToList());
+
+        //    return chartData;
+        //}
     }
 }

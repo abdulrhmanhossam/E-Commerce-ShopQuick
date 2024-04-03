@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\js\\OrderHistory.js"
     },
     {
+      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
       "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

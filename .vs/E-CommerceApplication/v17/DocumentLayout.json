@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\views\\order\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\views\\order\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\wwwroot\\js\\orderhistory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\wwwroot\\js\\orderhistory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\views\\order\\orderdetailpreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\views\\order\\orderdetailpreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\views\\order\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\views\\order\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderDetailPreview.cshtml",
-              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\OrderDetailPreview.cshtml",
-              "RelativeDocumentMoniker": "E-CommerceWebApp\\Views\\Order\\OrderDetailPreview.cshtml",
-              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\OrderDetailPreview.cshtml",
-              "RelativeToolTip": "E-CommerceWebApp\\Views\\Order\\OrderDetailPreview.cshtml",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T08:58:48.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderHistory.js",
-              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
-              "RelativeDocumentMoniker": "E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
-              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
-              "RelativeToolTip": "E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
-              "ViewState": "AQIAACYAAAAAAAAAAAAiwA4AAAASAAAA",
+              "Title": "dashboard.js",
+              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
+              "RelativeDocumentMoniker": "E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
+              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
+              "RelativeToolTip": "E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
+              "ViewState": "AQIAAEsAAAAAAAAAAAA2wGMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-01T08:48:02.108Z",
+              "WhenOpened": "2024-04-01T09:17:15.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
               "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
               "RelativeToolTip": "E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAYwCcAAAApAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAYwEcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-31T14:37:57.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "E-CommerceWebApp\\Controllers\\OrderController.cs",
               "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Controllers\\OrderController.cs",
               "RelativeToolTip": "E-CommerceWebApp\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAowEoAAAA6AAAA",
+              "ViewState": "AQIAAE8BAAAAAAAAAABCwKkBAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T14:29:02.71Z",
               "EditorCaption": ""
