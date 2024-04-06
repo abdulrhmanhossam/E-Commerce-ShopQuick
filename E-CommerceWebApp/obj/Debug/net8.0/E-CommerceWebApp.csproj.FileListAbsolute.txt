@@ -458,3 +458,7 @@ E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\Newto
 E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\Stripe.net.dll
 E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\obj\Debug\net8.0\E-CommerceWebApp.sourcelink.json
+E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\FluentEmail.Core.dll
+E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\FluentEmail.Razor.dll
+E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\FluentEmail.Smtp.dll
+E:\C#_MVC_Projects\E-CommerceApplication\E-CommerceWebApp\bin\Debug\net8.0\RazorLight.dll

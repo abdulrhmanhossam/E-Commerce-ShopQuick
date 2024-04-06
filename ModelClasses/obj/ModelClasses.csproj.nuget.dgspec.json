@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {}
+    "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {}
   },
   "projects": {
-    "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
+    "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+        "projectUniqueName": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
         "projectName": "ModelClasses",
-        "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+        "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-        "outputPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
+        "outputPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",

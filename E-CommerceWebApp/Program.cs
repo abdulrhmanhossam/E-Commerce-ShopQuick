@@ -1,8 +1,12 @@
 using DataBaseAccess;
+using E_CommerceWebApp.EmailServiceUsingFluent;
 using E_CommerceWebApp.Utility;
+using FluentEmail.Core;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Stripe;
+using System.Net;
+using System.Net.Mail;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +25,24 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.Sign
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
+
+builder.Services.AddTransient<IFluentEmailService, FluentEmailService>();
+
+var outlookSender = builder.Configuration.GetSection("Outlook")["Sender"];
+var outlookPassword = builder.Configuration.GetSection("Outlook")["Password"];
+var outlookHost = builder.Configuration.GetSection("Outlook")["Host"];
+var outlookPort = Convert.ToInt32(builder.Configuration.GetSection("Outlook")["Port"]);
+
+builder.Services.AddFluentEmail(outlookSender)// Sender Info
+    .AddRazorRenderer()
+    .AddSmtpSender(new SmtpClient(outlookHost)// using outlook smtp as client 
+    {
+        UseDefaultCredentials = true,
+        Port = outlookPort,
+        Credentials = new NetworkCredential(outlookSender, outlookPassword), // Sender Info
+        EnableSsl = true
+    });
+
 
 builder.Services.AddSession(options => 
 {

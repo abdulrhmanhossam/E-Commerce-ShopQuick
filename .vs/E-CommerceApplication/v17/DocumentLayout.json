@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\views\\order\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\views\\order\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\emailserviceusingfluent\\fluentemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\emailserviceusingfluent\\fluentemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|e:\\c#_mvc_projects\\e-commerceapplication\\e-commercewebapp\\emailserviceusingfluent\\ifluentemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87AFACE-E77C-4136-9FCD-690FEBF7BE70}|E-CommerceWebApp\\E-CommerceWebApp.csproj|solutionrelative:e-commercewebapp\\emailserviceusingfluent\\ifluentemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "E-CommerceWebApp\\appsettings.json",
+              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\appsettings.json",
+              "RelativeToolTip": "E-CommerceWebApp\\appsettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T23:38:02.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dashboard.js",
-              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
-              "RelativeDocumentMoniker": "E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
-              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
-              "RelativeToolTip": "E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
-              "ViewState": "AQIAAEsAAAAAAAAAAAA2wGMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-01T09:17:15.454Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApp\\Program.cs",
+              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Program.cs",
+              "RelativeToolTip": "E-CommerceWebApp\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwCkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:19:17.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
-              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
-              "RelativeToolTip": "E-CommerceWebApp\\Views\\Order\\Dashboard.cshtml",
-              "ViewState": "AQIAADcAAAAAAAAAAAAYwEcAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-31T14:37:57.56Z",
+              "Title": "FluentEmailService.cs",
+              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\EmailServiceUsingFluent\\FluentEmailService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApp\\EmailServiceUsingFluent\\FluentEmailService.cs",
+              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\EmailServiceUsingFluent\\FluentEmailService.cs",
+              "RelativeToolTip": "E-CommerceWebApp\\EmailServiceUsingFluent\\FluentEmailService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:13:38.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFluentEmailService.cs",
+              "DocumentMoniker": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\EmailServiceUsingFluent\\IFluentEmailService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApp\\EmailServiceUsingFluent\\IFluentEmailService.cs",
+              "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\EmailServiceUsingFluent\\IFluentEmailService.cs",
+              "RelativeToolTip": "E-CommerceWebApp\\EmailServiceUsingFluent\\IFluentEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:13:15.052Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +92,7 @@
               "RelativeDocumentMoniker": "E-CommerceWebApp\\Controllers\\OrderController.cs",
               "ToolTip": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\Controllers\\OrderController.cs",
               "RelativeToolTip": "E-CommerceWebApp\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAE8BAAAAAAAAAABCwKkBAAALAAAA",
+              "ViewState": "AQIAALUAAAAAAAAAAAAIwLsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T14:29:02.71Z",
               "EditorCaption": ""

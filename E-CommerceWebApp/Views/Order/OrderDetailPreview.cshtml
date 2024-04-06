@@ -146,7 +146,7 @@
                     <div class="col-6">
                         @{
                             double totalBills = Math.Round(totalOrderPrice + salesTax, 2);
-                            Model.OrderSummery.TotalOrderAmount = totalBills;
+                            Model.OrderSummery!.TotalOrderAmount = totalBills;
                         }
                         <strong><input class="form-control text-info text-right font-weight-bold"  asp-for="@Model.OrderSummery.TotalOrderAmount" readonly /></strong>
                     </div>
