@@ -25,6 +25,15 @@ namespace E_CommerceWebApp.Controllers
         public IActionResult Login(string returnUrl = null)
         {
             LoginViewModel loginViewModel = new LoginViewModel();
+            if (Request.Cookies.TryGetValue("RememberMeFunc", out string rememberMeValue))
+            {
+                var value = rememberMeValue.Split('|');
+                if (value.Length == 2)
+                {
+                    ViewBag.RememberMeEmail = value[0];
+                    ViewBag.RememberMePassword = value[1];
+                }
+            }
             ViewData["returnUrl"] = returnUrl;
             return View(loginViewModel);
         }
@@ -38,7 +47,17 @@ namespace E_CommerceWebApp.Controllers
             {
                 var signInResult = await _signInManager.PasswordSignInAsync
                     (login.Email, login.Password, isPersistent: false, lockoutOnFailure: false);
-
+                if (login.rememberMe)
+                {
+                    Response.Cookies.Append("RememberMeFunc", $"{login.Email}|{login.Password}",
+                        new CookieOptions
+                        {
+                            Expires = DateTime.Now.AddDays(30),
+                            HttpOnly = true,
+                            Secure = true,
+                            SameSite = SameSiteMode.None
+                        });
+                }
                 if (signInResult.Succeeded)
                 {
                     login.LoginStatus = "login successful. thank you";

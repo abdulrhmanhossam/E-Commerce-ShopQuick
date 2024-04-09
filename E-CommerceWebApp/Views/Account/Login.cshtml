@@ -38,19 +38,23 @@ background-image: url('/Images/bgl4.jpg'); background-size: cover; background-re
             <form asp-action="Login" method="post" asp-controller="Account" asp-route-returnUrl="@ViewData["returnUrl"]">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="d-flex justify-content-center align-items-center">
-                    <div class="col-lg-6 col-sm-12 col-md-12">
-                        <input placeholder="Email" asp-for="Email" class="rounded form-control text-secondary border-1 border-secondary" />
+                    <div class="col-lg-8 col-sm-12 col-md-12">
+                        <input placeholder="Email" asp-for="Email" class="rounded form-control text-secondary border-1 border-secondary" value="@ViewBag.RememberMeEmail" />
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
                 </div>
                 <br />
                 <div class="d-flex justify-content-center align-items-center" >
-                    <div class="col-lg-6 col-sm-12 col-md-12 pb-3 password-section">
-                        <input type="password" placeholder="Password" asp-for="Password"
+                    <div class="col-lg-8 col-sm-12 col-md-12 pb-3 password-section">
+                        <input type="password" placeholder="Password" asp-for="Password" value="@ViewBag.RememberMePassword"
                         class="rounded form-control text-secondary border-1 border-secondary" id="password-field" />
                         <i class='far fa-eye' id="hideShowPassword"></i>
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
+                </div>
+                <div class="text-start" style="position:relative">
+                    <label class="text-success" asp-for="rememberMe"></label>
+                    <input type="checkbox" asp-for="rememberMe" style=" position:absolute; top:-20%" />
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="pb-3">

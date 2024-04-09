@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj": {}
+    "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj": {}
   },
   "projects": {
-    "e:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj": {
+    "E:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj",
+        "projectUniqueName": "E:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj",
         "projectName": "DataBaseAccess",
-        "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj",
+        "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-        "outputPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\obj\\",
+        "outputPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
-                "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj"
+              "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
+                "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj"
               }
             }
           }
@@ -80,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "e:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj": {
+    "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj",
+        "projectUniqueName": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj",
         "projectName": "E-CommerceWebApp",
-        "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj",
+        "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\E-CommerceWebApp.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-        "outputPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\obj\\",
+        "outputPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,11 +108,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "e:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj": {
-                "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj"
+              "E:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj": {
+                "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj"
               },
-              "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
-                "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj"
+              "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
+                "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj"
               }
             }
           }
@@ -192,18 +192,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
+    "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+        "projectUniqueName": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
         "projectName": "ModelClasses",
-        "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+        "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-        "outputPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
+        "outputPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -262,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

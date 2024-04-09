@@ -15,3 +15,4 @@ E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\refint\
 E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.pdb
 E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.genruntimeconfig.cache
 E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\ref\DataBaseAccess.dll
+E:\C#_MVC_Projects\E-CommerceApplication\DataBaseAccess\obj\Debug\net8.0\DataBaseAccess.sourcelink.json

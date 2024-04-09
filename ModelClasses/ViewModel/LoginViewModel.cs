@@ -12,5 +12,6 @@ namespace ModelClasses.ViewModel
         [DataType(DataType.Password)]
         public string Password { get; set; }
         public string? LoginStatus { get; set; }
+        public bool rememberMe { get; set; }
     }
 }

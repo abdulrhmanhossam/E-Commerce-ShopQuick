@@ -10,3 +10,4 @@ E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\refint\Mo
 E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.pdb
 E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ref\ModelClasses.dll
 E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.csproj.AssemblyReference.cache
+E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.sourcelink.json

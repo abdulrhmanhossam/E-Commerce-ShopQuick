@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {}
+    "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {}
   },
   "projects": {
-    "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
+    "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+        "projectUniqueName": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
         "projectName": "ModelClasses",
-        "projectPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+        "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-        "outputPath": "e:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
+        "outputPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
