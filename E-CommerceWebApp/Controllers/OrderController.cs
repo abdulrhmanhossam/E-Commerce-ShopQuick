@@ -1,5 +1,4 @@
 ﻿using DataBaseAccess;
-using E_CommerceWebApp.EmailServiceUsingFluent;
 using E_CommerceWebApp.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -17,17 +16,15 @@ namespace E_CommerceWebApp.Controllers
         private readonly ApplicationDbContext _dbContext;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly IFluentEmailService _emailService;
         [BindProperty]
         public OrderDetailsViewModel OrderDetailsViewModel { get; set; }
 
         public OrderController(ApplicationDbContext dbContext, UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager, IFluentEmailService emailService)
+            SignInManager<IdentityUser> signInManager)
         {
             _dbContext = dbContext;
             _userManager = userManager;
             _signInManager = signInManager;
-            _emailService = emailService;
         }
 
         public IActionResult OrderDetailPreview()
@@ -182,23 +179,23 @@ namespace E_CommerceWebApp.Controllers
                     Count = list.Quantity,
                 };
                 
-                _dbContext.OrderDetails.Add(orderReceived);
+               await _dbContext.OrderDetails.AddAsync(orderReceived);
             }
 
-            string emailDetails = $"Dear {orderProcessed!.ApplicationUser.FirstName} " +
-                $"{orderProcessed.ApplicationUser.LastName},\n\nThank you so much for shopping with us. " +
-                $"The Tracking Information will be sent to you in another email. " +
-                $"Order NO: {id}. '' Your Total order amount is ${orderProcessed.TotalOrderAmount}" +
-                $"''\n\nRegards\nSales Team";
+            //string emailDetails = $"Dear {orderProcessed!.ApplicationUser.FirstName} " +
+            //    $"{orderProcessed.ApplicationUser.LastName},\n\nThank you so much for shopping with us. " +
+            //    $"The Tracking Information will be sent to you in another email. " +
+            //    $"Order NO: {id}. '' Your Total order amount is ${orderProcessed.TotalOrderAmount}" +
+            //    $"''\n\nRegards\nSales Team";
 
-            var userInfo = await _userManager.GetUserAsync(User);
-            _emailService.SendEmailForOrder(userInfo.Email, orderProcessed.ApplicationUser.FirstName + " " + 
-                orderProcessed.ApplicationUser.LastName, "order submitted successfully", emailDetails);
+            //var userInfo = await _userManager.GetUserAsync(User);
+            //_emailService.SendEmailForOrder(userInfo.Email, orderProcessed.ApplicationUser.FirstName + " " + 
+            //    orderProcessed.ApplicationUser.LastName, "order submitted successfully", emailDetails);
 
             ViewBag.OrderId = id;
             // remove item from cart for the current user after successfully completing the payment
             _dbContext.UserCarts.RemoveRange(userCartRemove);
-            _dbContext.SaveChanges();
+            await _dbContext.SaveChangesAsync();
             HttpContext.Session.Clear();
 
             return View();

@@ -26,22 +26,22 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
-builder.Services.AddTransient<IFluentEmailService, FluentEmailService>();
+//builder.Services.AddTransient<IFluentEmailService, FluentEmailService>();
 
-var outlookSender = builder.Configuration.GetSection("Outlook")["Sender"];
-var outlookPassword = builder.Configuration.GetSection("Outlook")["Password"];
-var outlookHost = builder.Configuration.GetSection("Outlook")["Host"];
-var outlookPort = Convert.ToInt32(builder.Configuration.GetSection("Outlook")["Port"]);
+//var outlookSender = builder.Configuration.GetSection("Outlook")["Sender"];
+//var outlookPassword = builder.Configuration.GetSection("Outlook")["Password"];
+//var outlookHost = builder.Configuration.GetSection("Outlook")["Host"];
+//var outlookPort = Convert.ToInt32(builder.Configuration.GetSection("Outlook")["Port"]);
 
-builder.Services.AddFluentEmail(outlookSender)// Sender Info
-    .AddRazorRenderer()
-    .AddSmtpSender(new SmtpClient(outlookHost)// using outlook smtp as client 
-    {
-        UseDefaultCredentials = true,
-        Port = outlookPort,
-        Credentials = new NetworkCredential(outlookSender, outlookPassword), // Sender Info
-        EnableSsl = true
-    });
+//builder.Services.AddFluentEmail(outlookSender)// Sender Info
+//    .AddRazorRenderer()
+//    .AddSmtpSender(new SmtpClient(outlookHost)// using outlook smtp as client 
+//    {
+//        UseDefaultCredentials = true,
+//        Port = outlookPort,
+//        Credentials = new NetworkCredential(outlookSender, outlookPassword), // Sender Info
+//        EnableSsl = true
+//    });
 
 
 builder.Services.AddSession(options => 
