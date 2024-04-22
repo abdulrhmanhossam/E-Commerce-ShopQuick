@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ModelClasses
-build_property.ProjectDir = E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\
+build_property.ProjectDir = E:\Projects\E-CommerceApplication\ModelClasses\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

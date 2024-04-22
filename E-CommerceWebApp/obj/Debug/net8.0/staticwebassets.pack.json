@@ -1,323 +1,323 @@
 {
   "Files": [
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceWebApp.bundle.scp.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceWebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\E-CommerceWebApp.bundle.scp.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\81GkqP8c3wL._SL1500_.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\81GkqP8c3wL._SL1500_.jpg",
       "PackagePath": "staticwebassets\\Images\\81GkqP8c3wL._SL1500_.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\AirPods-Pro-official.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\AirPods-Pro-official.jpg",
       "PackagePath": "staticwebassets\\Images\\AirPods-Pro-official.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\Apple-MacBook-Pro.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\Apple-MacBook-Pro.jpg",
       "PackagePath": "staticwebassets\\Images\\Apple-MacBook-Pro.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\Apple_MacBook_Pro_14_16_inch_10182021.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\Apple_MacBook_Pro_14_16_inch_10182021.jpg",
       "PackagePath": "staticwebassets\\Images\\Apple_MacBook_Pro_14_16_inch_10182021.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\LOPC389S.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\LOPC389S.jpg",
       "PackagePath": "staticwebassets\\Images\\LOPC389S.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\OIP.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\OIP.jpg",
       "PackagePath": "staticwebassets\\Images\\OIP.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\bgl4.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\bgl4.jpg",
       "PackagePath": "staticwebassets\\Images\\bgl4.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\bgl5.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\bgl5.jpg",
       "PackagePath": "staticwebassets\\Images\\bgl5.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\canon_9544b001_powershot_sx520_hs_digital_1068608.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\canon_9544b001_powershot_sx520_hs_digital_1068608.jpg",
       "PackagePath": "staticwebassets\\Images\\canon_9544b001_powershot_sx520_hs_digital_1068608.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\lg_pc389s_instant_digital_camera_with_1425435.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\lg_pc389s_instant_digital_camera_with_1425435.jpg",
       "PackagePath": "staticwebassets\\Images\\lg_pc389s_instant_digital_camera_with_1425435.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\order_success_placed.gif",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\order_success_placed.gif",
       "PackagePath": "staticwebassets\\Images\\order_success_placed.gif"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\sdasdddddwd.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\sdasdddddwd.jpg",
       "PackagePath": "staticwebassets\\Images\\sdasdddddwd.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\u_10207228234432423.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\u_10207228234432423.jpg",
       "PackagePath": "staticwebassets\\Images\\u_10207228234432423.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\workstation-2.jpg",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\Images\\workstation-2.jpg",
       "PackagePath": "staticwebassets\\Images\\workstation-2.jpg"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\css\\site.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\favicon.ico",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\OrderHistory.js",
       "PackagePath": "staticwebassets\\js\\OrderHistory.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\product.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\showHidePassword.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\showHidePassword.js",
       "PackagePath": "staticwebassets\\js\\showHidePassword.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\site.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\validateShippingInput.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\js\\validateShippingInput.js",
       "PackagePath": "staticwebassets\\js\\validateShippingInput.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\C#_MVC_Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\Projects\\E-CommerceApplication\\E-CommerceWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -7163,11 +7163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+      "projectUniqueName": "E:\\Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
       "projectName": "ModelClasses",
-      "projectPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
+      "projectPath": "E:\\Projects\\E-CommerceApplication\\ModelClasses\\ModelClasses.csproj",
       "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-      "outputPath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
+      "outputPath": "E:\\Projects\\E-CommerceApplication\\ModelClasses\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",

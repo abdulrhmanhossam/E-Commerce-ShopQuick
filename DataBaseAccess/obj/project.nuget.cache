@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+sqd0W9yfGz6F/q2fuXD71KnokApji9EctWqNpws+FVUMWevDZuCHr7tAMJeUeqeCzbfxlP1iH5GxwFyQG4SA==",
+  "dgSpecHash": "/AbEiH2BCubyW0KBqLegaAKByD8xLpRCsMyZJOM6jI1R3kbsxFguZ8lJP8pEqRHNAMvaTBF3LdzdzhCuCVjooQ==",
   "success": true,
-  "projectFilePath": "E:\\C#_MVC_Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj",
+  "projectFilePath": "E:\\Projects\\E-CommerceApplication\\DataBaseAccess\\DataBaseAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdul\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

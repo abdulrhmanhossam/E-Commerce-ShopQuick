@@ -11,3 +11,16 @@ E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClas
 E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ref\ModelClasses.dll
 E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.csproj.AssemblyReference.cache
 E:\C#_MVC_Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.sourcelink.json
+E:\Projects\E-CommerceApplication\ModelClasses\bin\Debug\net8.0\ModelClasses.deps.json
+E:\Projects\E-CommerceApplication\ModelClasses\bin\Debug\net8.0\ModelClasses.dll
+E:\Projects\E-CommerceApplication\ModelClasses\bin\Debug\net8.0\ModelClasses.pdb
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.csproj.AssemblyReference.cache
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.AssemblyInfoInputs.cache
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.AssemblyInfo.cs
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.csproj.CoreCompileInputs.cache
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.sourcelink.json
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.dll
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\refint\ModelClasses.dll
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ModelClasses.pdb
+E:\Projects\E-CommerceApplication\ModelClasses\obj\Debug\net8.0\ref\ModelClasses.dll
