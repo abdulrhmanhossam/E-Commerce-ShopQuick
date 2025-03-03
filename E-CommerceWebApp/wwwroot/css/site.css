@@ -1,0 +1,149 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.PaddingAll {
+  padding: 30px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+.PaddingAllWhite {
+  padding: 40px 20px 20px 20px;
+  margin: 20px 10px 10px 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.borderWithColorProd {
+  padding: 10px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.borderWithColor {
+  padding: 10px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+@media screen and (min-width: 550px){
+    .setWi{
+        width: 200px;
+        background-color: red;
+        border-image-width: 500
+    }
+}
+
+
+
+.store-item-icon:hover {
+    color: #fff; 
+}
+
+.single-item {
+    transition: background-color linear 50s;
+}
+
+.single-item:hover {
+    box-shadow: 100px 100px 150px rgb(249, 28, 18);
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+store-img {
+    transition: all 1s ease-in-out;
+}
+
+.img-container:hover .store-img {
+    transform: scale(2.2);
+}
+
+.store-item-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.75rem;
+    background: rgb(249, 2280, 1480);
+    border-top-left-radius: 1rem;
+    transition: all 1s ease-in-out;
+    transform: translate(100%, 100%);
+}
+
+.img-container:hover .store-item-icon {
+    transform: translate(0, 0);
+}
+
+.store-item-icon:hover {
+    color: rgb(249, 28, 18);
+}
+
+.noPadding {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 0px;
+}
+
+.sadowingBorder {
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px pink
+}
+
+.password-section {
+    position:relative;
+    display:inline-block;
+}
+
+.password-section .fa-eye {
+    position:absolute;
+    top:40%;
+    right:20px;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+
+.password-section .fa-eye-slash {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
